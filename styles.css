@@ -1,0 +1,115 @@
+/* Reset default styles and add basic styling */
+body, h1, h2, p, input, button, ul, li, nav, a {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #b4d974;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    margin: 0;
+    font-size: 28px;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+nav li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+}
+
+main {
+    padding: 20px;
+}
+
+.add-task {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+   
+}
+.home{
+    background-image: url(home.jpg);
+    height: 50vh;
+    width: 100%;
+}
+ h2{
+    text-align: center;
+    padding: 8%;
+    color: gold;
+    font-size: 100px;
+}
+
+input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    font-size: 30px;
+    border: 1px solid #ccc;
+    color: #a40404;
+    border-radius: 5px 0 0 5px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 30px;
+    background-color: #16a103;
+    color: #a40404;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+li button {
+    background-color: #f44336;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+li button:hover {
+    background-color: #d32f2f;
+}
+
+footer {
+    background-color: #f2f2f2;
+    padding: 10px;
+    text-align: center;
+    margin-top: 10vh;
+}
+.abt p{
+    padding: 50px;
+    font-family: monospace;
+    
+}
